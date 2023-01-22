@@ -6,8 +6,8 @@ namespace H00N.Manager
 {
     public class TimeManager : MonoBehaviour
     {
-        private TimeManager instance = null;
-        public TimeManager Instance
+        private static TimeManager instance = null;
+        public static TimeManager Instance
         {
             get
             {
